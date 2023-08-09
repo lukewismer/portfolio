@@ -1,0 +1,140 @@
+
+  
+  .navbar {
+    z-index: 2; /* Ensures that the navbar is above the home div */
+    /* other existing styles */
+  }
+  
+  .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top left, #000033, #0000FF);
+  }
+  
+  .home {
+    flex-grow: 1; /* To fill remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff; /* Text color */
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10rem;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+  }
+  
+  .subheader {
+    font-size: 22px; /* Adjust size as needed */
+  }
+  
+  .header {
+    font-size: 44px; /* Adjust size as needed */
+    font-weight: bold;
+  }
+  
+  .post-header-job,
+  .post-header-education {
+    font-size: 20px; /* Adjust size as needed */
+    margin-top: 5px;
+  }
+  
+  .picture {
+    margin-left: 30px; /* Space between the text and image */
+  }
+  
+  .picture img {
+    height: 200px; /* Adjust size as needed */
+    width: auto;
+  }
+  
+  .card-container {
+    margin: 20px; /* Optional: Add some vertical spacing around the cards */
+    margin-top: 100px;
+  }
+
+  .cards-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .cards {
+    display: flex; /* Layout the cards horizontally */
+    justify-content: space-between; /* Distribute space equally between the cards */
+  }
+
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column; /* Stack the cards vertically */
+      align-items: center; /* Center the cards horizontally */
+    }
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 100px;
+  }
+
+  .about-section {
+    text-align: center;
+    font-size: 18px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+
+  .find-me-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 100px;
+  }
+
+  .find-me-container {
+    margin-top: 75px;
+  }
+
+  .find-me-content {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+  }
+
+  .icon{
+    width: 25px;
+    height: 25px;
+    color: #00FFFF;
+  }
+
+  .home hr{
+    width: 80%;
+    border-color: #00FFFF;
+    background-color: #00FFFF;
+    height: 1px;
+    margin-top: 120px;
+  }

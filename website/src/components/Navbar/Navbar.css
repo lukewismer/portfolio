@@ -1,0 +1,129 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom right, #333, #444); 
+    padding: 10px 0;
+    margin: 5px 5px 0 5px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    position: relative;
+    left: -100%;
+    transition: left 3s ease-in;
+}
+
+.navbar.show {
+    left: 0; /* Show navbar */
+}
+
+.nav-link,
+.nav-dropdown .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+    font-size: 18px;
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-link:hover,
+.nav-dropdown:hover .nav-link {
+    color: #aaa;
+}
+
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to bottom right, #333, #444); 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px; 
+}
+
+.nav-dropdown-content a {
+    color: white; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-dropdown-content a:hover {
+    background-color: #333; 
+}
+
+.navbar button {
+    background: none; 
+    border: none; 
+    color: inherit; 
+    font: inherit; 
+    padding: 0; 
+    margin: 0; 
+    cursor: pointer; 
+}
+
+.nav-dropdown-content.show {
+    display: block; 
+}
+
+.nav-dropdown-content a:hover {
+    background-color: #333; 
+    border-radius: 5px; 
+}
+  
+.hamburger {
+    background: linear-gradient(to bottom right, #333, #444); 
+    padding: 11px 1;
+    margin: 5px 5px 0 5px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 19px 24px;
+    transition: color 0.3s;
+    font-size: 23px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.nav-title {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    transition: left 3s ease-out;
+    color: white;
+}
+
+.animated-title {
+    font-size: 32px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid white;
+    width: 0;
+    animation: typing 3s steps(14, end) forwards, /* Typing effect */
+        blink-caret .75s step-end infinite; /* Cursor effect */
+}
+
+@keyframes typing {
+    0% { width: 0 }
+    100% { width: 14% }
+}
+  
+@keyframes blink-caret {
+    50% { border-color: transparent; }
+}
