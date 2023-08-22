@@ -28,7 +28,7 @@ const Navbar = () => {
     : 
     <div className='nav-title' style={{ left: isMenuOpen ? '-100%' : '0' }}>
         <GiHamburgerMenu className="hamburger" onClick={() => setIsMenuOpen(true)}/>
-        <div className="animated-title">lukewismer.dev&lt;/p&gt</div>
+        <div className="animated-title">lukewismer.com&lt;/p&gt</div>
     </div>
     
     )
