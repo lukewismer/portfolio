@@ -16,14 +16,14 @@ const Navbar = () => {
         <div className="nav-dropdown" onMouseEnter={() => setProjectsDropdownOpen(true)} onMouseLeave={() => setProjectsDropdownOpen(false)}>
             <button className="nav-link">Projects</button>
             <div className={`nav-dropdown-content ${isProjectsDropdownOpen ? 'show' : ''}`}>
-            <a href="/project1">Project 1</a>
-            <a href="/project2">Project 2</a>
+              <a href="/qrhunter">QR Hunter</a>
+              <a href="/thepregames">The Pregames</a>
+              <a href="/netdrive">NetDrive Hockey</a>
+              <a href="/gamelytix">Gamelytix</a>
             </div>
         </div>
+        <a href="/experience" className="nav-link">Experience</a>
         <a href="/resume" className="nav-link">Resume</a>
-        <a href="/references" className="nav-link">References</a>
-        <a href="/leet-code" className="nav-link">Leet Code</a>
-        <a href="/contact" className="nav-link">Contact</a>
     </nav>
     : 
     <div className='nav-title' style={{ left: isMenuOpen ? '-100%' : '0' }}>

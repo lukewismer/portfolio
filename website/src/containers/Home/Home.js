@@ -3,7 +3,7 @@ import './Home.css';
 
 import Navbar from '../../components/Navbar/Navbar';
 import Card from '../../components/Card/Card';
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import Footer from '../../components/Footer/Footer';
 
 const programmer_icon = require('../../assets/rb_programmer.png');
 
@@ -58,7 +58,7 @@ const Home = () => {
                         />
                         <Card
                         title="And Much More"
-                        description="Unit Testing, Sage Intacct, C, Sports Analytics, UML"
+                        description="Unit Testing, Sage Intacct, C, Sports Analytics, UML, Git"
                         borderColor="#00FFFF"
                         />
                     </div>
@@ -78,13 +78,7 @@ const Home = () => {
 
                     </div>
                 </div>
-                <div className="find-me-container">
-                    <div className="find-me-content">
-                        <AiFillGithub className='icon' />
-                        <AiFillLinkedin className='icon' />
-                        <AiFillInstagram className='icon' />
-                    </div>
-                </div>
+                <Footer />
             </div>
           </div>
       </div>

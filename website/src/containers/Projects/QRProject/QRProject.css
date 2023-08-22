@@ -1,0 +1,107 @@
+.project-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.project-title-container {
+    margin-top: 7rem;
+}
+
+.qrhunter {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+    height: 100%;
+    z-index: 1;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #00FFFF;
+    font-size: 14px;
+}
+
+.project-link-container {
+    text-align: center;
+}
+
+.info-section {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.made-date,
+.tech-used,
+.collaborators {
+    text-align: center;
+    font-size: 18px;
+}
+
+.technologies-used {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.images-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 50%;
+}
+
+.images-row img {
+    width: 30%;
+    height: auto;
+}
+
+.about-section {
+    text-align: center;
+    font-size: 18px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.card-header {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-tech-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 80%; /* Adjust as needed */
+}
+
+.card {
+    width: 45%; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    padding: 20px;
+    border: 2px solid #00FFFF; /* Border color and size */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.made-date,
+.collaborators {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.technologies-used {
+    font-size: 18px;
+    margin: 5px 0;
+}

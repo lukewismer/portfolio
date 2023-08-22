@@ -108,28 +108,7 @@
   }
 
 
-  .find-me-title {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 100px;
-  }
-
-  .find-me-container {
-    margin-top: 75px;
-  }
-
-  .find-me-content {
-    display: flex;
-    justify-content: space-between;
-    width: 120px;
-  }
-
-  .icon{
-    width: 25px;
-    height: 25px;
-    color: #00FFFF;
-  }
+  
 
   .home hr{
     width: 80%;
