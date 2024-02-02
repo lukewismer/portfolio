@@ -19,7 +19,7 @@ const Navbar = () => {
               <a href="/qrhunter">QR Hunter</a>
               <a href="/thepregames">The Pregames</a>
               <a href="/netdrive">NetDrive Hockey</a>
-              <a href="/gamelytix">Gamelytix</a>
+              <a href="/analytics">Analytics</a>
             </div>
         </div>
         <a href="/experience" className="nav-link">Experience</a>

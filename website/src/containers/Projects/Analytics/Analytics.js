@@ -1,4 +1,4 @@
-import "./Gamelytix.css";
+import "./Analytics.css";
 
 
 import Navbar from '../../../components/Navbar/Navbar';
@@ -8,14 +8,14 @@ const img1 = require('./img1.png');
 const img2 = require('./img2.png');
 
 
-const Gamelytix = () => {
+const Analytics = () => {
     return (
         <div className='wrapper'>
             <Navbar />
             <div className="qrhunter">
             <div className="project-title-container">
                 <div className="project-title">
-                    NetDrive Hockey
+                    Analytics
                 </div>
                 <div className="project-link-container-pregames">
                     <a href="https://github.com/lukewismer/Fantasy-Hockey" className='project-link'>View it in Github</a>
@@ -39,7 +39,10 @@ const Gamelytix = () => {
                 <img src={img2} alt="Project Screenshot 2"/>
             </div>
             <div className="about-section">
-                Gamelytix is an innovative and comprehensive sports analytics platform with a special focus on hockey. Developed using cutting-edge technologies such as React.js, Selenium, BeautifulSoup, AWS, MySQL, TensorFlow, Sci-kit Learn, Python, Java, and Javascript, the platform aims to redefine sports analysis. Gamelytix features a dynamic fantasy hockey platform that offers a captivating experience by blending real-time statistics with an interactive and highly customizable interface. It also hosts a dedicated youth sports stats portal, empowering stakeholders with data-driven AI decision-making tools. Through deep learning AI models, Gamelytix provides sophisticated team and player rankings, transcending traditional metrics to offer nuanced insights into performance. Its advanced NHL analytics utilizes AI algorithms to offer in-depth game and player analyses, revealing valuable patterns and trends. Currently in development, Gamelytix embodies the fusion of technology, data, and passion, and is poised to become a central hub for sports enthusiasts, analysts, and professionals, providing an unmatched experience in the realm of sports analytics.
+                My Analytics work has so far been focused on the NHL. My first project I built is this Neural Network to forecast players points
+                for the upcoming season. I applied some basic machine learning principles that I have learned in class to these models, to improve efficiency.
+                I also have a project that scrapes the web and various api's for player stats and stores them in a database. Currently I am working on another research paper
+                on NHL draft picks transitioning to the pros.
             </div>
             <Footer />
             </div>
@@ -47,4 +50,4 @@ const Gamelytix = () => {
     );
 };
 
-export default Gamelytix;
+export default Analytics;

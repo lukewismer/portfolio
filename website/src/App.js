@@ -6,7 +6,7 @@ import Home from './containers/Home/Home';
 import QRProject from './containers/Projects/QRProject/QRProject';
 import ThePregames from './containers/Projects/ThePregames/ThePregames';
 import NetDrive from './containers/Projects/NetDrive/NetDrive';
-import Gamelytix from './containers/Projects/Gamelytix/Gamelytix';
+import Analytics from './containers/Projects/Analytics/Analytics';
 import Resume from './containers/Resume/Resume';
 import Experience from './containers/Experience/Experience';
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="qrhunter" element={<QRProject />} />
           <Route path="thepregames" element={<ThePregames />} />
           <Route path="netdrive" element={<NetDrive />} />
-          <Route path="gamelytix" element={<Gamelytix />} />
+          <Route path="analytics" element={<Analytics />} />
           <Route path="resume" element={<Resume />} />
           <Route path="experience" element={<Experience />} />
         </Route>
